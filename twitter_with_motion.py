@@ -11,10 +11,10 @@ def login_to_twitter(consumer_key, consumer_secret, access_token, access_token_s
     ret['auth'] = auth
     return  api
 def post_tweets():
-    consumer_key='x3m3PkACEdHniZPL8dAJ5mDz'
-    consumer_secret='5tmu1NMV9SjZJjcDfE1dbd5q5IPxq2ioSX2jmSrt1Inc031F2'
-    access_token='968403555492167680-hQ2rGpiINbCKDTk9gSFdgn43lp8wT9'
-    access_token_secret='4V1cBDQrNat4FndawyN1GobFZ9YlQiHzmyUvrbbObdKr' 
+    consumer_key='x3m3PkACEdHniZPL8AJ5mDz'
+    consumer_secret='5tmu1NMV9SjZJjcDfE1dbd5q5IPxq2ioSX2jmrt1Inc031F2'
+    access_token='968403555492167680-hQ2rGpiINbCKDTk9gSFgn43lp8wT9'
+    access_token_secret='4V1cBDQrNat4FndawyN1GobFZ9YlQiHmyUvrbbObdKr' 
     api = login_to_twitter(consumer_key, consumer_secret, access_token, access_token_secret)
     PIR=MotionSensor(4)
     if PIR.motion_detected:
