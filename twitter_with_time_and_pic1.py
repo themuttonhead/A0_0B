@@ -11,9 +11,9 @@ def login_to_twitter(consumer_key, consumer_secret, access_token, access_token_s
     return  api
 def post_tweets():
     consumer_key='JznliSRYryxpSNmqxoQ09d7FA'
-    consumer_secret='9JsiHmrqxq3cNBelDJkjoQji4xO59w3ggJlVaKxDnCINwlyz9t'
-    access_token='2280491725-J5VZ4XdKyBQ5orJFkpmQAAF5CjE0RudaGjGJtH5'
-    access_token_secret='XBSFOlxMDyApbEhRq7z9vvWZmnzNCLbG9ccZRu8Rm6pcr' 
+    consumer_secret='9JsiHmrqxq3cNBelDJkjoQji4xO59wggJlVaKxDnCINwlyz9t'
+    access_token='2280491725-J5VZ4XdKyBQ5orJFkpmQAAF5jE0RudaGjGJtH5'
+    access_token_secret='XBSFOlxMDyApbEhRq7z9vvWZmnzNCLG9ccZRu8Rm6pcr' 
     api = login_to_twitter(consumer_key, consumer_secret, access_token, access_token_secret)
     #print("GG")
     
